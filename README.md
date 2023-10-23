@@ -18,12 +18,15 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
-5.- Start nest server
+5.- Clonar el archivo ```.env.template``` and rename copy to __.env.__
+
+6.- Fill enviroment variables define on ```.env```
+
+7.- Start nest server
 ```
 yarn start:dev
 ```
-
-6.- Rebuild database using seed
+8.- Rebuild database using seed
 ```
 http://localhost:3000/api/v2/seed
 ```
