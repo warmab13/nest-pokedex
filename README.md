@@ -31,6 +31,14 @@ yarn start:dev
 http://localhost:3000/api/v2/seed
 ```
 
+# Production Build
+1.- Crear el archivo ```.env.prod```
+2.- Fill enviroment variables on production
+3.- Create the new image:
+```
+docker-compose -f docker-compose.prod.yaml --env-file .env.prod up --build
+```
+
 ## Used Stack
 * Mongodb
 * Nest
